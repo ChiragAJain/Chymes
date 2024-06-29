@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chymes | Feedback</title>
+    <link rel="shortcut icon" href="/static/assets/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/feedback.css">
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class = 'navbar'>
+            <div>
+                <img class="logo" src="/static/assets/Logo.png" alt="Chymes_logo">
+            </div>
+            <div class="nav-items">
+                <li>
+                    <a href="index.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <h1 class="playlist">PLAYLIST</h1>
+        <div id="playlist-container">
+            <h3>The following songs have been added to your playlist</h3>
+            <ul class="playlist-list">
+                {% for track in playlist %}
+                    <li>
+                        <a class="song" href="{{ track.link }}">{{ track.name }}<br><span class="artist" style="font-size:1.5vw">-{{ track.artist }}</span></a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    
+</body>
+</html>

@@ -1,0 +1,343 @@
+
+body{
+    margin:0;
+    position:relative;
+    background-color: #008DDA;
+}
+.navbar{
+    position:fixed;
+    width: 100vw;
+    height:6vh;
+    background-color: #008DDA;
+    margin:0;
+    top:0;
+    z-index:999;
+    border-bottom: #fff 0.1vw solid;
+    
+}
+.logo{
+    position:absolute;
+    width:2.8vw;
+    margin-left:1vw;
+}
+.nav-items{
+    display:inline-flex;
+    position:relative;
+    padding-top:1.5vh;
+    margin-left: 38vw ;
+    font-size:1.25vw;
+}
+.nav-items li{
+    position:relative;
+    display:inline-block;
+    padding-left:3vw;
+    width:8vw;
+    opacity:1!important;
+
+}
+.nav-items a{
+    text-decoration: none !important;
+    font-family: "Pixelify Sans","Sans Serif";
+    color: #F7EEDD;
+    transition:0.75s;
+    opacity:1;
+}
+.nav-items li :hover{
+    color:#FF7F3E;
+}
+
+    
+.login{
+
+    display:inline-flex;
+    position:relative;
+    font-family: "Pixelify Sans","Sans Serif";
+
+    float:right;
+    margin-top:-0.55vh;
+    margin-right:3%;
+}
+.login a{
+    text-decoration: none;
+}
+.login h3{
+    font-size:1.25vw;
+    color: #F7EEDD;
+    transition:0.75s;
+}
+.login h3:hover{
+    color:#FF7F3E;
+}
+.main{
+    position:relative;
+    display:block;
+    padding-top:5vh;
+    padding-left:35vw;
+    z-index:2;
+}
+.chymes{
+    font-size:8vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    color: #FF7F3E;
+    margin-bottom:0;
+}
+
+.main input{
+    width:27vw;
+    height:3vh;
+    font-size: 1.15vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    margin-left:1vw;
+    padding-left:1vw;
+}
+.main textarea{
+
+    width:27vw;
+    height:6vh;
+    font-size: 1.15vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    margin-left:1vw;
+    padding-left:1vw;
+}
+.main div{
+    margin-bottom:2%;
+}
+.cloud{
+    margin-bottom:0;
+    z-index:1;
+}
+.Cloud1{
+    position:absolute;
+    width:20vw;
+    margin-top:-20vw;
+    margin-left:35vw;
+}
+.Cloud2{
+    position:absolute;
+    width:20vw;
+    margin-top:0vw;
+    margin-left:-20vw;
+}
+
+@media only screen and (max-width:480px){
+    .navbar{
+        position:fixed;
+        width: 100vw;
+        height:6vh;
+        background-color: #008DDA;
+        margin:0;
+        top:0;
+        z-index:999;
+        border-bottom: #fff 0.1vw solid;
+        
+    }
+    .logo{
+        position:absolute;
+        width:11vw;
+        margin-left:1vw;
+    }
+    .nav-items{
+        display:inline-flex;
+        position:relative;
+        padding-top:1.3vh;
+        margin-left: 35vw ;
+        font-size:5vw;
+    }
+    .nav-items li{
+        position:relative;
+        display:inline-block;
+        padding-left:5vw;
+        width:27vw;
+        opacity:1!important;
+    
+    }
+    .main{
+        position:relative;
+        display:block;
+        padding-top:2vh;
+        padding-left:15vw;
+        z-index:100;
+    }
+    .chymes{
+        position:relative;
+        font-size:20vw;
+        font-family:"Pixelify Sans","Sans Serif";
+        color: #FF7F3E;
+        margin-bottom:0;
+        margin-top:-20vw;
+        z-index:20;
+    }
+    
+    .main input{
+        position:relative;
+        width:68vw;
+        height:1.8vh;
+        font-size: 4vw;
+        font-family:"Pixelify Sans","Sans Serif";
+        margin-left:2.8vw;
+        padding-left:1vw;
+        z-index:25;
+    }
+    .main textarea{
+        width:27vw;
+        height:6vh;
+        font-size: 1.15vw;
+        font-family:"Pixelify Sans","Sans Serif";
+        margin-left:1vw;
+        padding-left:1vw;
+    }
+    .main div{
+        margin-bottom:2%;
+    }
+    .cloud{
+        margin-bottom:0;
+        z-index:1;
+    }
+    .Cloud1{
+        position:relative;
+        width:30vw;
+        margin-top:-15vw;
+        margin-left:55vw;
+        z-index:1;
+    }
+    .Cloud2{
+        position:relative;
+        width:30vw;
+        margin-top:10vw;
+        margin-left:-10vw;
+        z-index: 1;
+    }
+    .btn{
+        margin-left:20vw;
+        font-family:"Pixelify Sans","Sans Serif";
+        font-size: 3.5vw;
+        background-color: #41C9E2;
+        width:35vw;
+        height:5.5vw;
+        transition:0.75s
+    }
+    .btn:hover{
+        background-color: #FF7F3E;
+        color:#F7EEDD;
+    }
+    .btn:active{
+        background-color: #FF7F3E;
+    }
+}
+form button{
+    margin-left:9vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    font-size: 1.15vw;
+    background-color: #41C9E2;
+    width:12vw;
+    height:2vw;
+    transition:0.75s
+}
+form button:hover{
+    background-color: #FF7F3E;
+    color:#F7EEDD;
+}
+form button:active{
+    background-color: #008DDA;
+}
+@media only screen and (max-width:480px){
+    .playlist{
+        font-size:15vw!important;
+        font-family:"Pixelify Sans","Sans Serif";
+        color: #FF7F3E;
+        margin-bottom:0;
+        margin-top:10vw;
+        margin-left:5vw;
+    }
+    .playlist-list{
+        margin-left:-5vw;
+    }
+    .playlist-list li{
+        list-style-type: disc;
+        color: #FF7F3E;
+        width:40vw;
+    
+    }
+    #playlist-container h3{
+        font-size:4vw !important;
+        font-family:"Pixelify Sans","Sans Serif";
+        color: #282626;
+        margin-top:0!important;
+        margin-left:-10vw!important;
+        text-align: center;
+        
+    }   
+    .playlist-input{
+        width:25vw!important;
+        margin-left:0.3vw!important;
+    }
+    .song{
+        font-family:"Pixelify Sans","Sans Serif";
+        text-decoration: None;
+        font-size: 4vw !important;
+        color:#F7EEDD
+    
+    }
+    .artist{
+        font-size:3vw!important;
+    }
+}
+.playlist{
+    font-size:6vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    color: #FF7F3E;
+    margin-bottom:0;
+}
+.playlist-list{
+    margin-left:-5vw;
+}
+.playlist-list li{
+    list-style-type: disc;
+    color: #FF7F3E;
+    width:40vw;
+
+}
+#playlist-container h3{
+    font-size:1.5vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    color: #282626;
+    margin-left:-5vw;
+    
+}   
+.playlist-input{
+    width:25vw!important;
+    margin-left:0.3vw!important;
+}
+.song{
+    font-family:"Pixelify Sans","Sans Serif";
+    text-decoration: None;
+    font-size: 2vw;
+    color:#F7EEDD
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.5vw;
+    height:1vw;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #008DDA;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F7EEDD;
+    border-radius: 30vw;
+    transition:1s;
+  }
+
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF7F3E;
+    border-radius: 30vw;
+  }

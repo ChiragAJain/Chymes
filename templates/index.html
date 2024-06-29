@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chymes</title>
+    <link rel="shortcut icon" href="/static/assets/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class = 'navbar'>
+            <div>
+                <img class="logo" src="/static/assets/Logo.png" alt="Chymes_logo">
+            </div>
+            <div class="nav-items">
+                <li>
+                    <a href="#">Home Page</a>
+                </li>
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <img class="Cloud2" src="/static/assets/Cloud2.png" alt="Cloud2">
+        <h1 class="chymes">CHYMES</h1>
+        <form action="/playlist" , method="post" class="reveal-content">
+            <div>
+                <input name="location" type="text" id="userText" placeholder="City,Country   Ex. Bangalore,India">
+            </div>
+            <div>
+                <input name="name" type="text" id="userText" placeholder="Playlist Name   Ex. Refresh">
+            </div>
+            <button type="submit" class="btn btn-default btn-lg">Generate Playlist</button>
+        </form>
+        <div class="cloud">
+            <img class="Cloud1" src="/static/assets/Cloud1.png" alt="Cloud1">
+            
+        </div>
+
+    </div>
+    <script src="./static/index.js"></script>
+</body>
+</html>

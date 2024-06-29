@@ -1,0 +1,93 @@
+.feedback{
+    position:relative;
+    display:block;
+    padding-top:0;
+    padding-left:35.5vw;
+    z-index:2;
+}
+.feedback h1{
+    font-size:6vw;
+    font-family:"Pixelify Sans","Sans Serif";
+    color: #FF7F3E;
+    margin-bottom:0%;
+}
+form input{
+    font-family:"Pixelify Sans","Sans Serif";
+    width: 27vw;
+    height:3vh;
+    margin-bottom:1%;
+    font-size: 1.15vw;
+    padding-left:1%;
+    margin-left:1%;
+}
+form textarea{
+    font-family:"Pixelify Sans","Sans Serif";
+    width:27.1vw;
+    height:20vh;
+    font-size: 1.15vw;
+    padding-left:1%;
+    margin-left:1%;
+}
+form button{
+    margin-left:17% !important;
+    font-family:"Pixelify Sans","Sans Serif";
+    font-size: 1.15vw;
+    background-color: #41C9E2;
+    width:8vw !important;
+    height:2vw;
+}
+
+.response{
+    font-family:"Pixelify Sans","Sans Serif";
+    font-size:1.25vw;
+    text-align: left;
+    padding-left:8%;
+}
+
+@media only screen and (max-width:480px){
+    .feedback{
+        position:relative;
+        display:block;
+        margin-top:15vw;
+        padding-left:16vw;
+        z-index:2;
+    }
+    .feedback h1{
+        font-size:15vw;
+        font-family:"Pixelify Sans","Sans Serif";
+        color: #FF7F3E;
+        margin-bottom:0%;
+    }
+    form input{
+        font-family:"Pixelify Sans","Sans Serif";
+        width: 59.5vw;
+        height:1.5vh;
+        margin-bottom:1vw;
+        font-size: 4vw;
+        padding-left:1vw;
+        margin-left:4vw;
+    }
+    form textarea{
+        font-family:"Pixelify Sans","Sans Serif";
+        width:60vw;
+        height:20vh;
+        font-size: 4vw;
+        padding-left:1vw;
+        margin-left:4vw;
+    }
+    form button{
+        margin-left:26vw !important;
+        font-family:"Pixelify Sans","Sans Serif";
+        font-size: 4vw !important;
+        background-color: #41C9E2;
+        width:16vw !important;
+        height:2vw;
+    }
+    
+    .response{
+        font-family:"Pixelify Sans","Sans Serif";
+        font-size:4vw;
+        text-align: left;
+        padding-left:6vw!important;
+    }
+}
